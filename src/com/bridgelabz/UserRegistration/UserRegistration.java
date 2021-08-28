@@ -78,7 +78,9 @@ public class UserRegistration {
 									System.out.println("Password is not Valid");
 								break;
 						
-						default: System.out.println("Program Exited");return;
+						default: System.out.println("Program Exited");
+								sc.close();
+								return;
 								
 						
 					}
