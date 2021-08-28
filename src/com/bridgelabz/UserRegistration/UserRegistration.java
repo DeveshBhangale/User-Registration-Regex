@@ -55,8 +55,7 @@ public class UserRegistration {
 									System.out.println("Email is Valid");
 								else
 									System.out.println("Email is not Valid");
-								break;
-								
+								break;								
 								
 						// Use Case 4
 						case 4: System.out.println("Enter your Valid Phone No.");
