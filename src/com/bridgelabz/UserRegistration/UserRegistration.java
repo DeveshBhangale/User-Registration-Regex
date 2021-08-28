@@ -72,7 +72,7 @@ public class UserRegistration {
 						// Use Case 5 & 6 & 7 & 8
 						case 5: System.out.println("Enter your Password");
 								input = sc.next();
-								Regex = "[0-9A-Za-z]{8,}";
+								Regex = "^(?=.{8,}$)(?=.*[a-z])(?=.*[A-Z]).*$";
 								if(input.matches(Regex))
 									System.out.println("Password is Valid");
 								else
