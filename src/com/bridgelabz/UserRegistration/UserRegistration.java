@@ -47,15 +47,15 @@ public class UserRegistration {
 									System.out.println("Last Name is not Valid");
 								break;
 								
-//						// Use Case 3
-//						case 3: System.out.println("Enter your Valid Email");
-//								input = sc.next();
-//								Regex = "^[a-zA-Z]{2,}?[.+-]?[0-9a-zA-Z]{0,}@[a-zA-Z0-9]{1,}.[a-z]{2,}?[.][a-z]{1,}";
-//								if(input.matches(Regex))
-//									System.out.println("Email is Valid");
-//								else
-//									System.out.println("Email is not Valid");
-//								break;
+						// Use Case 3
+						case 3: System.out.println("Enter your Valid Email");
+								input = sc.next();
+								Regex = "^[a-zA-Z]{2,}?[.+-]?[0-9a-zA-Z]{0,}@[a-zA-Z0-9]{1,}.[a-z]{2,}?[.][a-z]{1,}";
+								if(input.matches(Regex))
+									System.out.println("Email is Valid");
+								else
+									System.out.println("Email is not Valid");
+								break;
 //								
 //								
 //						// Use Case 4
