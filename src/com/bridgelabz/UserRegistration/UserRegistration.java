@@ -56,18 +56,18 @@ public class UserRegistration {
 								else
 									System.out.println("Email is not Valid");
 								break;
-//								
-//								
-//						// Use Case 4
-//						case 4: System.out.println("Enter your Valid Phone No.");
-//								dummy = sc.nextLine();
-//								input = sc.nextLine();
-//								Regex = "^[0-9]{1,3}\s[0-9]{10}";
-//								if(input.matches(Regex))
-//									System.out.println("Last Name is Valid");
-//								else
-//									System.out.println("Last Name is not Valid");
-//								break;
+								
+								
+						// Use Case 4
+						case 4: System.out.println("Enter your Valid Phone No.");
+								dummy = sc.nextLine();
+								input = sc.nextLine();
+								Regex = "^[0-9]{1,3}\s[0-9]{10}";
+								if(input.matches(Regex))
+									System.out.println("Last Name is Valid");
+								else
+									System.out.println("Last Name is not Valid");
+								break;
 						
 						default: System.out.println("Program Exited");return;
 								
