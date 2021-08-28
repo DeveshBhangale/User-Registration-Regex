@@ -47,7 +47,7 @@ public class UserRegistration {
 									System.out.println("Last Name is not Valid");
 								break;
 								
-						// Use Case 3
+						// Use Case 3 & 9
 						case 3: System.out.println("Enter your Valid Email");
 								input = sc.next();
 								Regex = "^[a-zA-Z]{2,}?[.+-]?[0-9a-zA-Z]{0,}@[a-zA-Z0-9]{1,}.[a-z]{2,}?[.][a-z]{1,}";
@@ -64,9 +64,19 @@ public class UserRegistration {
 								input = sc.nextLine();
 								Regex = "^[0-9]{1,3}\s[0-9]{10}";
 								if(input.matches(Regex))
-									System.out.println("Last Name is Valid");
+									System.out.println("Phone No is Valid");
 								else
-									System.out.println("Last Name is not Valid");
+									System.out.println("Phone No is not Valid");
+								break;
+								
+						// Use Case 5 & 6 & 7 & 8
+						case 5: System.out.println("Enter your Password");
+								input = sc.next();
+								Regex = "[0-9A-Za-z]{8,}";
+								if(input.matches(Regex))
+									System.out.println("Password is Valid");
+								else
+									System.out.println("Password is not Valid");
 								break;
 						
 						default: System.out.println("Program Exited");return;
